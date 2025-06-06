@@ -1,12 +1,18 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-int factorial(int n) {
-    int result = 1;
-    for (int i = 2; i <= n; i++) {
-        result *= i;
-    }
-    return result;
+long double factorial(int N) {  
+    if (N < 0) {  
+        return 0;  
+    }  
+    if (N == 0) {  
+        return 1;  
+    }  
+    long double result = 1;  
+    for (int i = 1; i <= N; i++) {  
+        result *= i;  
+    }  
+    return result;  
 }
 double Sum(double& x, double& y)
 {
