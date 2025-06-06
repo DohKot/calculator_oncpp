@@ -1,15 +1,19 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-long double factorial(int N) {  
-    if (N < 0) {  
+long double factorial(int N) 
+{  
+    if (N < 0) 
+    {  
         return 0;  
     }  
-    if (N == 0) {  
+    if (N == 0) 
+    {  
         return 1;  
     }  
     long double result = 1;  
-    for (int i = 1; i <= N; i++) {  
+    for (int i = 1; i <= N; i++) 
+    {  
         result *= i;  
     }  
     return result;  
