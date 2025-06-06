@@ -91,7 +91,7 @@ double S(double& x, int terms)
 }
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "Russian");
 	char key = 0;
 	bool exit = 1;
 	double x, y, d;
